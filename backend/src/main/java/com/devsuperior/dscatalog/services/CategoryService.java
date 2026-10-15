@@ -45,7 +45,7 @@ public class CategoryService {
 		return new CategoryDTO(entity);
 	}
 
-	/*
+	
 	@Transactional
 	public CategoryDTO update(Long id, CategoryDTO dto) {
 		try {
@@ -59,6 +59,7 @@ public class CategoryService {
 		}		
 	}
 
+	/*
 	@Transactional(propagation = Propagation.SUPPORTS)
 	public void delete(Long id) {
 		if (!repository.existsById(id)) {
